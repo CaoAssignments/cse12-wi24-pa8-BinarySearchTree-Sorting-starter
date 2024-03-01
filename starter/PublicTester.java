@@ -85,7 +85,7 @@ public class PublicTester {
         MyBST.MyBSTNode<Integer, Integer> rootCopy = actualRes.root;
 
         // Check size is the same
-        assertEquals(5, actualRes.size);
+        assertEquals(6, actualRes.size);
         
         // Compare left/right pointers and node values
         assertEquals(rootOrig.getKey().intValue(),
