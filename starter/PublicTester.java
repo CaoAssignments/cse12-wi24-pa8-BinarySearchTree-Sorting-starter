@@ -80,7 +80,7 @@ public class PublicTester {
 
     @Test
     public void testCopy() {
-        MYBST<Integer, Integer> actualRes = tree.copy();
+        MyBST<Integer, Integer> actualRes = tree.copy();
         MyBST.MyBSTNode<Integer, Integer> rootOrig = tree.root;
         MyBST.MyBSTNode<Integer, Integer> rootCopy = actualRes.root;
 
